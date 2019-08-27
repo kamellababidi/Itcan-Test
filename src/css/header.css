@@ -25,26 +25,49 @@
     padding-left: 15px;
 }
 
+.itcan-logo-img {
+    position: absolute;
+    top: 54px;
+    left: 120px;
+    width: 184px;
+    height: 83px;
+}
 
-/* mobile devices */
-@media (max-width: 500px) {
-    .header-left{
-       height: 305px;
-    }
-    .header-right{
-        height: 555px;
-        padding-top: 50px;
-    }
+.book-img {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 80%;
+    height: 80%;
+}
+
+.men-img {
+    position: absolute;
+    margin: auto;
+    top: 7vw;
+    bottom: 0;
+    left: 55%;
+    right: 0;
+    width: 13.5%;
+    height: 30vw;
+}
+
+/* 1344 px */
+@media (max-width: 1344px) {
     .header-right p{
-        font-size: 22px;
-        text-align: center;
-        padding-left: 57px;
-        padding-right: 57px;
+        font-size: 34px;
     }
 }
 
+/* 1250 px */
+@media (max-width: 1250px) {
 
-/* ipad */
+}
+
+/* 990 */
 @media (max-width: 990px) {
 
     .header-right p{
@@ -63,14 +86,55 @@
         padding-left: 0px;
         margin: 30px auto;
     }
-}
-
-@media (max-width: 1344px) {
-    .header-right p{
-        font-size: 34px;
+    .men-img {
+        top: 11vw;
+        height: 50vw;
     }
 }
 
+/* 770 */
+@media (max-width: 990px) {
+
+}
+
+/* 500 */
+@media (max-width: 500px) {
+    .header-left{
+       height: 305px;
+    }
+    .header-right{
+        height: 555px;
+        padding-top: 50px;
+    }
+    .header-right p{
+        font-size: 22px;
+        text-align: center;
+        padding-left: 57px;
+        padding-right: 57px;
+    }
+    .itcan-logo-img {
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 40px;
+        width: 77px;
+        height: 35px;
+    }
+    .book-img {
+        top: 33px;
+        width: 47%;
+        height: 56%;
+    }
+    
+    .men-img {
+        top: 7vw;
+        left: 33%;
+        width: 13.5%;
+        height: 30vw;
+    }
+}
+
+/* 411 */
 @media (max-width: 411px) {
     .header-right p{
         font-size: 21px;

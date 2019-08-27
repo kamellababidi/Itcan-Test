@@ -5,7 +5,11 @@ import Button from './Button'
 const Header = () => (
     <header>
         <Row>
-            <Col className='header-left' lg={7}>1 of 2</Col>
+            <Col className='header-left' lg={7}>
+                <img className='itcan-logo-img' src={require("../public/itcan-logo.png")}/>
+                <img className='book-img' src={require("../public/book.svg")}/>
+                <img className='men-img' src={require("../public/men.svg")}/>
+            </Col>
             <Col className='header-right' lg={5}>
                 <p>Connect with us to get started</p>
                 <div className='header-form-container'>
