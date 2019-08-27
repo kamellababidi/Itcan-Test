@@ -11,7 +11,7 @@ const Header = () => (
                 <div className='header-form-container'>
                     {/* 1 */}
                     <Row>
-                        <Col lg={12}>
+                        <Col sm xs={12}>
                             <Input
                                 placeholder='YOUR FULL NAME'
                             />
@@ -19,12 +19,12 @@ const Header = () => (
                     </Row>
                     {/* 2 */}
                     <Row>
-                        <Col lg={6}>
+                        <Col sm xs={6}>
                             <Input
                                 placeholder='GENDER'
                             />
                         </Col>
-                        <Col lg={6}>
+                        <Col sm xs={6}>
                             <Input
                                 placeholder='DOB'
                             />
@@ -32,7 +32,7 @@ const Header = () => (
                     </Row>
                     {/* 3 */}
                     <Row>
-                        <Col lg={12}>
+                        <Col sm xs={12}>
                             <Input
                                 placeholder='City of Residence'
                             />
@@ -40,12 +40,12 @@ const Header = () => (
                     </Row>
                     {/* 4 */}
                     <Row>
-                        <Col lg={6}>
+                        <Col sm xs={6}>
                             <Input
                                 placeholder='Nationality'
                             />
                         </Col>
-                        <Col lg={6}>
+                        <Col sm xs={6}>
                             <Input
                                 placeholder='Marital Status'
                             />
@@ -53,12 +53,12 @@ const Header = () => (
                     </Row>
                     {/* 5 */}
                     <Row>
-                        <Col lg={6}>
+                        <Col sm xs={6}>
                             <Input
                                 placeholder='MAJOR'
                             />
                         </Col>
-                        <Col lg={6}>
+                        <Col sm xs={6}>
                             <Input
                                 placeholder='degree'
                             />
@@ -66,12 +66,12 @@ const Header = () => (
                     </Row>
                     {/* 6 */}
                     <Row>
-                        <Col lg={6}>
+                        <Col sm xs={6}>
                             <Input
                                 placeholder='university'
                             />
                         </Col>
-                        <Col lg={6}>
+                        <Col sm xs={6}>
                             <Input
                                 placeholder='years of experience'
                             />
@@ -79,12 +79,12 @@ const Header = () => (
                     </Row>
                     {/* 7 */}
                     <Row>
-                        <Col lg={6}>
+                        <Col sm xs={6}>
                             <Input
                                 placeholder='employment status'
                             />
                         </Col>
-                        <Col lg={6}>
+                        <Col sm xs={6}>
                             <Input
                                 placeholder='expected salary'
                             />
@@ -92,12 +92,12 @@ const Header = () => (
                     </Row>
                     {/* 8 */}
                     <Row>
-                        <Col lg={6}>
+                        <Col sm xs={6}>
                             <Input
                                 placeholder='visa status'
                             />
                         </Col>
-                        <Col lg={6}>
+                        <Col sm xs={6}>
                             <Input
                                 placeholder='tell us about you (optional)'
                             />
