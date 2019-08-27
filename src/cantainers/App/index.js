@@ -4,19 +4,10 @@ import Button from 'react-bootstrap/Button';
 import { Helmet } from 'react-helmet';
 import { Switch, Route } from 'react-router-dom';
 import HomePage from '../HomePage/index';
-
-const AppWrapper = styled.div`
-  max-width: calc(768px + 16px * 2);
-  margin: 0 auto;
-  display: flex;
-  min-height: 100%;
-  padding: 0 16px;
-  flex-direction: column;
-`;
-
+import {Container} from 'react-bootstrap';
 
 const App = () => (
-    <AppWrapper>
+    <Container fluid={true} style={{ paddingLeft: 0, paddingRight: 0, margin: 0 }}>
         <Helmet
             defaultTitle="Itcan Test"
         >
@@ -24,7 +15,7 @@ const App = () => (
         <Switch>
             <Route exact path="/" component={HomePage} />
         </Switch>
-    </AppWrapper>
+    </Container>
 );
 
 export default App;

@@ -8,6 +8,7 @@ import store from './store';
 import App from './cantainers/App/index';
 import reset from './constants/css/reset';
 import './css/styles.css'
+import './css/header.css'
 
 const GlobalStyle = createGlobalStyle`${reset}`;
 
