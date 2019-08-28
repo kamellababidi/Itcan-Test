@@ -6,6 +6,7 @@ import ValueContainer from '../../components/ValueContainer'
 import ServiceContainer from '../../components/ServiceContainer'
 import LocationContainer from '../../components/LocationContainer'
 import ClientContainer from '../../components/ClientContainer'
+import IndustryContainer from '../../components/IndustryContainer'
 
 
 const HomePage = () => (
@@ -167,6 +168,50 @@ const HomePage = () => (
             <Col lg={true} md={true} sm xs = {6}>
               <ClientContainer
                 img={require('../../public/tajawal.svg')}
+              />
+            </Col>
+          </Row>
+        </div>
+      </section>
+      {/* industries */}
+      <section>
+        <SectionHeader
+              title='INDUSTRIES'
+        />
+        <div className='itcan-industries-container'>
+          <Row>
+            <Col lg={4} md={4} sm xs = {12}>
+              <IndustryContainer
+                img={require('../../public/home.png')}
+              />
+            </Col>
+            <Col lg={4} md={4} sm xs = {12}>
+              <IndustryContainer
+                img={require('../../public/electronics.png')}
+              />
+            </Col>
+            <Col lg={4} md={4} sm xs = {12}>
+              <IndustryContainer
+                img={require('../../public/travil.png')}
+              />
+            </Col>
+          </Row>
+        </div>
+        <div className='itcan-industries-container'>
+          <Row>
+            <Col lg={4} md={4} sm xs = {12}>
+              <IndustryContainer
+                img={require('../../public/fashion.png')}
+              />
+            </Col>
+            <Col lg={4} md={4} sm xs = {12}>
+              <IndustryContainer
+                img={require('../../public/fragrance.png')}
+              />
+            </Col>
+            <Col lg={4} md={4} sm xs = {12}>
+              <IndustryContainer
+                img={require('../../public/cosmetics.png')}
               />
             </Col>
           </Row>

@@ -44,11 +44,20 @@
 }
 
 .itcan-clients-container {
-    width: 95%;
+    width: 90%;
     margin: 80px auto 0px auto; 
 }
 
 .itcan-clients-container Col {
+    margin: 1px;
+}
+
+.itcan-industries-container {
+    width: 90%;
+    margin: 80px auto 0px auto; 
+}
+
+.itcan-industries-container Col {
     margin: 1px;
 }
 
