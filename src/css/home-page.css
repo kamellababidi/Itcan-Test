@@ -15,6 +15,16 @@
     text-align: center;
 }
 
+.who-itcan-values-container {
+    width: 88%;
+    margin: 122px auto 0px auto;
+    /* margin-top: 189px; */
+}
+
+.who-itcan-values-container Col {
+    margin: 2px;
+}
+
 
 
 /* 500 */

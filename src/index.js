@@ -14,6 +14,7 @@ import './css/input.css'
 import './css/button.css'
 import './css/input.css'
 import './css/section-header.css'
+import './css/value-container.css'
 
 const GlobalStyle = createGlobalStyle`${reset}`;
 
