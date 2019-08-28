@@ -21,6 +21,7 @@ import './css/service-container.css'
 import './css/location-container.css'
 import './css/client-container.css'
 import './css/industry-container.css'
+import './css/footer.css'
 ////////////////////////////////
 
 const GlobalStyle = createGlobalStyle`${reset}`;

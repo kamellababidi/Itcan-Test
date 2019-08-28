@@ -7,6 +7,7 @@ import ServiceContainer from '../../components/ServiceContainer'
 import LocationContainer from '../../components/LocationContainer'
 import ClientContainer from '../../components/ClientContainer'
 import IndustryContainer from '../../components/IndustryContainer'
+import Footer from '../../components/Footer'
 
 
 const HomePage = () => (
@@ -217,6 +218,8 @@ const HomePage = () => (
           </Row>
         </div>
       </section>
+      {/* Footer */}
+      <Footer/>
     </div>
 );
 
