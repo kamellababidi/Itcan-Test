@@ -1,0 +1,32 @@
+.section-header-container {
+    justify-content: center;
+    align-items: center;
+}
+
+.section-header-container h4 {
+    color: #000000;
+    font-size: 55px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section-header-underline {
+    width: 65px;
+    height: 9px;
+    background: transparent linear-gradient(90deg, #F95D5D 0%, #D2345B 100%) 0% 0% no-repeat padding-box;
+    margin: 0 auto;
+    border-radius: 2px;
+}
+
+
+/* 500 */
+@media (max-width: 500px) {
+    .section-header-container h4 {
+        font-size: 22px;
+    }
+
+    .section-header-underline {
+        width: 43px;
+        height: 6px;
+    }
+}

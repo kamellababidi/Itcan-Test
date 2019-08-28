@@ -19,8 +19,15 @@ div.col-xs-1,div.col-xs-10,div.col-xs-11,div.col-xs-12,div.col-xs-2,div.col-xs-3
 /* ---------------- */
 
 /* import fonts */
-p, h1, h2, h3, h4, h5, h6 {
+p, h1, h2, h3, h5, h6 {
     font-family: 'Avenir Next LT Pro';
     src: url('../constants/fonts/AvenirNextLTPro-Regular.woff');
+}
+/* ---------------- */
+
+/* import fonts */
+h4 {
+    font-family: 'Avenir Next LT Pro';
+    src: url('../constants/fonts/AvenirLTStd-Roman.woff');
 }
 /* ---------------- */

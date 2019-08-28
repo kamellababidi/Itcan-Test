@@ -8,9 +8,12 @@ import store from './store';
 import App from './cantainers/App/index';
 import reset from './constants/css/reset';
 import './css/styles.css'
+import './css/home-page.css'
 import './css/header.css'
 import './css/input.css'
 import './css/button.css'
+import './css/input.css'
+import './css/section-header.css'
 
 const GlobalStyle = createGlobalStyle`${reset}`;
 

@@ -1,0 +1,34 @@
+.home-page-container section {
+    margin-top: 150px;
+}
+
+.who-itcan-text-container {
+    padding-top: 70px;
+    width: 84%;
+    margin: 0 auto;
+}
+
+.who-itcan-text-container p {
+    font-size: 31px;
+    color: #000000;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+/* 500 */
+@media (max-width: 500px) {
+    .home-page-container section {
+        margin-top: 140px;
+    }
+
+    .who-itcan-text-container {
+        padding-top: 14px;
+    }
+
+    .who-itcan-text-container p {
+        font-size: 18px;
+    }
+
+}
