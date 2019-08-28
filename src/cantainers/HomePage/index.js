@@ -5,6 +5,7 @@ import SectionHeader from '../../components/SectionHeader'
 import ValueContainer from '../../components/ValueContainer'
 import ServiceContainer from '../../components/ServiceContainer'
 import LocationContainer from '../../components/LocationContainer'
+import ClientContainer from '../../components/ClientContainer'
 
 
 const HomePage = () => (
@@ -102,6 +103,70 @@ const HomePage = () => (
             <Col lg={4} md={true}>
               <LocationContainer
                 img={require('../../public/cairo.svg')}
+              />
+            </Col>
+          </Row>
+        </div>
+      </section>
+      {/* Our clients */}
+      <section>
+        <SectionHeader
+            title='OUR CLIENTS'
+        />
+        <div className='itcan-clients-container'>
+          <Row>
+            <Col lg={true} md={true} sm xs = {6}>
+              <ClientContainer
+                img={require('../../public/boohoo.png')}
+              />
+            </Col>
+            <Col lg={true} md={true} sm xs = {6}>
+              <ClientContainer
+                img={require('../../public/oud.svg')}
+              />
+            </Col>
+            <Col lg={true} md={true} sm xs = {6}>
+              <ClientContainer
+                img={require('../../public/ghawali.png')}
+              />
+            </Col>
+            <Col lg={true} md={true} sm xs = {6}>
+              <ClientContainer
+                img={require('../../public/loccitane.png')}
+              />
+            </Col>
+            <Col lg={true} md={true} sm xs = {6}>
+              <ClientContainer
+                img={require('../../public/matic.png')}
+              />
+            </Col>
+          </Row>
+        </div>
+        <div className='itcan-clients-container'>
+          <Row>
+            <Col lg={true} md={true} sm xs = {6}>
+              <ClientContainer
+                img={require('../../public/mikyajy.png')}
+              />
+            </Col>
+            <Col lg={true} md={true} sm xs = {6}>
+              <ClientContainer
+                img={require('../../public/mumzworld.png')}
+              />
+            </Col>
+            <Col lg={true} md={true} sm xs = {6}>
+              <ClientContainer
+                img={require('../../public/nisnass.png')}
+              />
+            </Col>
+            <Col lg={true} md={true} sm xs = {6}>
+              <ClientContainer
+                img={require('../../public/ounass.svg')}
+              />
+            </Col>
+            <Col lg={true} md={true} sm xs = {6}>
+              <ClientContainer
+                img={require('../../public/tajawal.svg')}
               />
             </Col>
           </Row>

@@ -19,6 +19,7 @@ import './css/section-header.css'
 import './css/value-container.css'
 import './css/service-container.css'
 import './css/location-container.css'
+import './css/client-container.css'
 ////////////////////////////////
 
 const GlobalStyle = createGlobalStyle`${reset}`;

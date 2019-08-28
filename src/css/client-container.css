@@ -1,0 +1,52 @@
+.client-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: transparent linear-gradient(180deg, #F95D5D 0%, #D2345B 100%) 0% 0% no-repeat padding-box;
+    width: 200px;
+    height: 206px;
+    margin: 0 auto;
+    top: 0;
+    transition: top ease 0.5s;
+    border-radius: 900px;
+}
+.client-container:hover {
+    opacity: 0.7;
+    top: 5px;
+}
+
+.client-img {
+    width: 123px;
+    height: 55px;
+}
+
+
+/* 1440px */
+@media (max-width: 1440px) {
+    .client-container {
+        width: 200px;
+    }
+}
+
+/* 990px */
+@media (max-width: 990px) {
+    .client-container {
+        margin: 67px auto;
+    }
+}
+
+/* 500px */
+@media (max-width: 500px) {
+    .client-container {
+        margin: 25px auto;
+        width: 148px;
+        height: 148px;
+    }
+
+    .client-img {
+        width: 90px;
+        height: 35px;
+    }
+}
