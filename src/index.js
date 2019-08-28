@@ -18,6 +18,7 @@ import './css/input.css'
 import './css/section-header.css'
 import './css/value-container.css'
 import './css/service-container.css'
+import './css/location-container.css'
 ////////////////////////////////
 
 const GlobalStyle = createGlobalStyle`${reset}`;

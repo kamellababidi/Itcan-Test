@@ -4,6 +4,7 @@ import Header from '../../components/Header'
 import SectionHeader from '../../components/SectionHeader'
 import ValueContainer from '../../components/ValueContainer'
 import ServiceContainer from '../../components/ServiceContainer'
+import LocationContainer from '../../components/LocationContainer'
 
 
 const HomePage = () => (
@@ -12,7 +13,7 @@ const HomePage = () => (
       {/* Who itcan */}
       <section>
         <SectionHeader
-          title='who is itcan?'
+          title='WHO IS ITCAN?'
         />
         <div className='who-itcan-text-container'>
           <p>Itcan was founded in Dubai in 2015, it started with Performance Marketing & Digital Marketing Services and now it is the leading Saudi e-commerce digital marketing company in the Middle East region focusing on enabling leading brands to enable their business and technology growth.</p>
@@ -46,7 +47,7 @@ const HomePage = () => (
       {/* What we are */}
       <section>
         <SectionHeader
-          title='what we are?'
+          title='WHAT WE ARE?'
         />
         <div className='who-itcan-services-container'>
           <Row>
@@ -79,6 +80,31 @@ const HomePage = () => (
                 />
               </Col>
             </Row>
+        </div>
+      </section>
+      {/* Our locations */}
+      <section>
+        <SectionHeader
+            title='OUR LOCATIONS'
+        />
+        <div className='itcan-location-container'>
+          <Row>
+            <Col lg={4} md={true}>
+              <LocationContainer
+                img={require('../../public/dubai.svg')}
+              />
+            </Col>
+            <Col lg={4} md={true}>
+              <LocationContainer
+                  img={require('../../public/damam.svg')}
+              />
+            </Col>
+            <Col lg={4} md={true}>
+              <LocationContainer
+                img={require('../../public/cairo.svg')}
+              />
+            </Col>
+          </Row>
         </div>
       </section>
     </div>
