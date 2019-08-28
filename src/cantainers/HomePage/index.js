@@ -1,9 +1,9 @@
 import React from 'react';
-import styled from 'styled-components';
-import {Container, Row, Col} from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import Header from '../../components/Header'
 import SectionHeader from '../../components/SectionHeader'
 import ValueContainer from '../../components/ValueContainer'
+import ServiceContainer from '../../components/ServiceContainer'
 
 
 const HomePage = () => (
@@ -48,6 +48,38 @@ const HomePage = () => (
         <SectionHeader
           title='what we are?'
         />
+        <div className='who-itcan-services-container'>
+          <Row>
+              <Col lg={3} md={true}>
+                <ServiceContainer
+                  img={require('../../public/installs.svg')}
+                  title='App Installs'
+                  desc='We are experts in increasing and maintaining the quality of App downloads.'
+                />
+              </Col>
+              <Col lg={3} md={true}>
+                <ServiceContainer
+                    img={require('../../public/awareness.svg')}
+                    title='Brand Awareness'
+                    desc='We have the right channels to increase your reach in your target locations.'
+                />
+              </Col>
+              <Col lg={3} md={true}>
+                <ServiceContainer
+                    img={require('../../public/aquisition.svg')}
+                    title='Customer Acquisition'
+                    desc='We will attract and acquire your target customer base in the region.'
+                />
+              </Col>
+              <Col lg={3} md={true}>
+                <ServiceContainer
+                    img={require('../../public/revinue.svg')}
+                    title='Revenue Generation'
+                    desc='We have a proven track record in scaling online region orders and revenue.'
+                />
+              </Col>
+            </Row>
+        </div>
       </section>
     </div>
 );
