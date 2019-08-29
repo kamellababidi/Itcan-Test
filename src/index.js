@@ -22,6 +22,7 @@ import './css/location-container.css'
 import './css/client-container.css'
 import './css/industry-container.css'
 import './css/footer.css'
+import './css/dashboard.css'
 ////////////////////////////////
 
 const GlobalStyle = createGlobalStyle`${reset}`;

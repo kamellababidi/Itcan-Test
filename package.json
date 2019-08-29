@@ -87,8 +87,11 @@
         "webpack-merge": "^4.2.1"
     },
     "dependencies": {
+        "@material-ui/core": "^4.3.3",
+        "@material-ui/icons": "^4.2.1",
         "bootstrap": "^4.3.1",
         "cross-env": "^5.2.0",
+        "material-table": "^1.50.0",
         "react": "^16.8.6",
         "react-bootstrap": "^1.0.0-beta.12",
         "react-dom": "^16.8.6",
