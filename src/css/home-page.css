@@ -27,7 +27,7 @@
 
 .who-itcan-services-container {
     width: 85%;
-    margin: 150px auto 0px auto; 
+    margin: 130px auto 0px auto; 
 }
 
 .who-itcan-sevices-container Col {
@@ -35,17 +35,21 @@
 }
 
 .itcan-location-container {
-    width: 95%;
-    margin: 122px auto 0px auto; 
+    width: 75%;
+    margin: 130px auto 0px auto; 
 }
 
 .itcan-location-container Col {
     margin: 1px;
 }
 
+.itcan-clients-container-parent {
+    margin-top: 130px;
+}
+
 .itcan-clients-container {
-    width: 90%;
-    margin: 80px auto 0px auto; 
+    width: 75%;
+    margin: 40px auto 0px auto; 
 }
 
 .itcan-clients-container Col {
@@ -53,8 +57,8 @@
 }
 
 .itcan-industries-container {
-    width: 90%;
-    margin: 80px auto 0px auto; 
+    width: 75%;
+    margin: 130px auto 0px auto; 
 }
 
 .itcan-industries-container Col {

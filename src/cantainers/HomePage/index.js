@@ -115,6 +115,7 @@ const HomePage = () => (
         <SectionHeader
             title='OUR CLIENTS'
         />
+        <div className='itcan-clients-container-parent'>
         <div className='itcan-clients-container'>
           <Row>
             <Col lg={true} md={true} sm xs = {6}>
@@ -173,6 +174,7 @@ const HomePage = () => (
             </Col>
           </Row>
         </div>
+        </div>
       </section>
       {/* industries */}
       <section>
@@ -184,16 +186,19 @@ const HomePage = () => (
             <Col lg={4} md={4} sm xs = {12}>
               <IndustryContainer
                 img={require('../../public/home.png')}
+                title='HOME'
               />
             </Col>
             <Col lg={4} md={4} sm xs = {12}>
               <IndustryContainer
                 img={require('../../public/electronics.png')}
+                title='ELECTRONICS'
               />
             </Col>
             <Col lg={4} md={4} sm xs = {12}>
               <IndustryContainer
                 img={require('../../public/travil.png')}
+                title='TRAVEL'
               />
             </Col>
           </Row>
@@ -203,16 +208,19 @@ const HomePage = () => (
             <Col lg={4} md={4} sm xs = {12}>
               <IndustryContainer
                 img={require('../../public/fashion.png')}
+                title='FASHION'
               />
             </Col>
             <Col lg={4} md={4} sm xs = {12}>
               <IndustryContainer
                 img={require('../../public/fragrance.png')}
+                title='FRAGRANCE'
               />
             </Col>
             <Col lg={4} md={4} sm xs = {12}>
               <IndustryContainer
                 img={require('../../public/cosmetics.png')}
+                title='COSMETICS'
               />
             </Col>
           </Row>

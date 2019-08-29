@@ -4,8 +4,8 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    width: 409px;
-    height: 409px;
+    width: 380px;
+    height: 380px;
     margin: 0 auto;
     top: 0;
     transition: top ease 0.5s;
