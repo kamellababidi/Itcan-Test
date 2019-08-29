@@ -3,14 +3,15 @@ import { Row, Col } from 'react-bootstrap';
 import Input from './Input'
 import Button from './Button'
 import { MdCheck } from "react-icons/md";
-const baseUrl = "http://localhost:8080/api/submission"
+const baseUrl = "https://itcan-test.herokuapp.com/api/submission"
 
 class Header extends Component {
 
     constructor(props) {
         super(props)
         this.state = {
-            submitted: false
+            submitted: false,
+            loader: false
         }
     }
 
@@ -23,6 +24,9 @@ class Header extends Component {
     }
 
     submitForm() {
+        this.setState({
+            loader: true
+        })
         // will be refactored 
         let body = {}
         for(var i=0; i< $('.header-form-container').children().length; i++) {
@@ -49,12 +53,16 @@ class Header extends Component {
             .then(
                 (result) => {
                     if(result.errors) {
+                        this.setState({
+                            loader: false
+                        })
                         alert("please fiull required data!")
                         return;
                     }
                     
                     this.setState({
-                        submitted: true
+                        submitted: true,
+                        loader: false
                     });
                 },
                 (error) => {
@@ -212,9 +220,16 @@ class Header extends Component {
                                         </Col>
                                     </Row>
                                 </div>
-                                <div className='header-form-btn' onClick={ () => this.submitForm()}>
-                                    <Button/>
-                                </div>
+                                {
+                                    this.state.loader ? 
+                                    <div className='loader'>
+                                        <h1>submitting ..</h1>
+                                    </div>
+                                    :
+                                    <div className='header-form-btn' onClick={ () => this.submitForm()}>
+                                    <   Button/>
+                                    </div>
+                                }
                             </div>
                         }
                         
