@@ -6,8 +6,7 @@ const Header = () => (
     <header>
         <Row>
             <Col className='header-left' lg={7}>
-                <div className='header-left-background'></div>
-                <img className='itcan-logo-img' src={require("../public/itcan-logo.png")}/>
+                <img className='itcan-logo-img' src={require("../public/colored-logo.png")}/>
                 <img className='book-img' src={require("../public/book.svg")}/>
                 <img className='men-img' src={require("../public/men.svg")}/>
             </Col>

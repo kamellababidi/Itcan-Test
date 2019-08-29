@@ -24,13 +24,13 @@
 }
 
 .value-container h5 {
-    font-size: 40px;
+    font-size: 37px;
     color: #000000;
     font-weight: bold;
 }
 
 .value-container p {
-    font-size: 25px;
+    font-size: 23px;
     color: #000000;
     text-align: center;
     width: 80%;
@@ -40,8 +40,8 @@
 /* 1440px */
 @media (max-width: 1440px) {
     .value-container {
-        width: 363px;
-        height: 392.8px;
+        width: 300px;
+        height: 352.8px;
     }
 }
 

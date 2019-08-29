@@ -1,23 +1,23 @@
 .home-page-container section {
-    margin-top: 150px;
+    /* margin-top: 50px; */
 }
 
 .who-itcan-text-container {
     padding-top: 70px;
-    width: 84%;
+    width: 75%;
     margin: 0 auto;
 }
 
 .who-itcan-text-container p {
-    font-size: 31px;
+    font-size: 29px;
     color: #000000;
     font-weight: 400;
     text-align: center;
 }
 
 .who-itcan-values-container {
-    width: 88%;
-    margin: 122px auto 0px auto;
+    width: 75%;
+    margin: 110px auto 0px auto;
     /* margin-top: 189px; */
 }
 
@@ -26,8 +26,8 @@
 }
 
 .who-itcan-services-container {
-    width: 95%;
-    margin: 122px auto 0px auto; 
+    width: 85%;
+    margin: 150px auto 0px auto; 
 }
 
 .who-itcan-sevices-container Col {

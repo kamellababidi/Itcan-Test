@@ -58,7 +58,7 @@ const HomePage = () => (
                 <ServiceContainer
                   img={require('../../public/installs.svg')}
                   title='App Installs'
-                  desc='We are experts in increasing and maintaining the quality of App downloads.'
+                  desc='We are experts in increasing and maintaining quality of App downloads.'
                 />
               </Col>
               <Col lg={3} md={true}>

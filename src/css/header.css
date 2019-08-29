@@ -46,18 +46,18 @@
     bottom: 0;
     left: 0;
     right: 0;
-    width: 80%;
-    height: 80%;
+    width: 65%;
+    height: 65%;
 }
 
 .men-img {
     position: absolute;
     margin: auto;
-    top: 7vw;
+    top: 1vw;
     bottom: 0;
-    left: 55%;
+    left: 45%;
     right: 0;
-    width: 13.5%;
+    width: 12.5%;
     height: 30vw;
 }
 
@@ -93,7 +93,6 @@
         margin: 30px auto;
     }
     .men-img {
-        top: 11vw;
         height: 50vw;
     }
 }
@@ -139,7 +138,7 @@
     }
     
     .men-img {
-        top: 15vw;
+        top: 13vw;
         left: 33%;
         width: 13.5%;
         height: 30vw;

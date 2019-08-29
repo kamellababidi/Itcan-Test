@@ -12,6 +12,7 @@ class Dashboard extends Component {
         this.fetchSubmissions()
     }
 
+    // fetch submissions
     fetchSubmissions() {
         fetch(baseUrl,
         {
