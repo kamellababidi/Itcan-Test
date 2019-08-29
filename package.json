@@ -13,7 +13,9 @@
         "test:cover": "yarn run test --coverage",
         "cypress:open": "cypress open",
         "precommit": "yarn run lint && yarn test",
-        "prepush": "yarn run lint"
+        "prepush": "yarn run lint",
+        "dev-server": "webpack-dev-server --open",
+        "heroku-postbuild": "npm run build"
     },
     "keywords": [
         "react",
