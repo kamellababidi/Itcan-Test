@@ -1,2 +1,12 @@
 .dashboard-container {
 }
+
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader h1 {
+    font-size: 44px;
+}
