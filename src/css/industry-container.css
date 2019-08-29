@@ -30,8 +30,8 @@
 /* 1440px */
 @media (max-width: 1440px) {
     .industry-container {
-        width: 340px;
-        height: 265px;
+        width: 330px;
+        height: 255px;
     }
 }
 
@@ -39,6 +39,8 @@
 @media (max-width: 990px) {
     .industry-container {
         margin: 67px auto;
+        width: 320px;
+        height: 245px;
     }
 }
 
@@ -46,7 +48,7 @@
 @media (max-width: 500px) {
     .industry-container {
         margin: 25px auto;
-        width: 330px;
+        width: 310px;
         height: 235px;
     }
 
