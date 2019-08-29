@@ -6,6 +6,7 @@ const Input = (props) => (
         <InputGroup size='md' className="form-input">
             <FormControl
                 className='input'
+                name={props.name}
                 placeholder={props.placeholder}
             />
         </InputGroup>

@@ -85,6 +85,34 @@
   visibility: visible; 
 }
 
+.submitted-container {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 29px;
+    padding-right: 15px;
+}
+
+.submitted-check {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    background: transparent linear-gradient(134deg, #F95D5D 0%, #D2345B 100%) 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+}
+
+.submitted-container p {
+    margin-top: 5px;
+    text-align: center;
+    color: #161E6D;
+    font-weight: 100;
+    font-size: 38px;
+}
+
 /* 1344 px */
 @media (max-width: 1344px) {
     .header-right p{
@@ -107,6 +135,10 @@
         padding-right: 57px;
     }
     .header-form-container {
+        padding-right: 0px;
+        margin: 29 auto;
+    }
+    .submitted-container {
         padding-right: 0px;
         margin: 29 auto;
     }
