@@ -56,7 +56,7 @@ class Header extends Component {
                         this.setState({
                             loader: false
                         })
-                        alert("please fiull required data!")
+                        alert("please fill required data!")
                         return;
                     }
                     

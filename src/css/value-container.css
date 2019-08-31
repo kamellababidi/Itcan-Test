@@ -57,6 +57,7 @@
     .value-container {
         width: 274px;
         height: 296px;
+        margin: 30px auto;
     }
     .value-container h5 {
         font-size: 22px;

@@ -76,7 +76,33 @@
     }
 
     .who-itcan-text-container p {
+        margin-top: 40px;
         font-size: 18px;
     }
 
+    .who-itcan-values-container {
+        margin: 40px auto 0px auto;
+    }
+
+    .who-itcan-services-container {
+        margin: 40px auto 0px auto; 
+    }
+
+    .itcan-location-container {
+        width: 90%;
+        margin: 40px auto 0px auto;
+    }
+
+    .itcan-clients-container-parent {
+        margin-top: 40px;
+    }
+
+    .itcan-clients-container {
+        margin: 0px auto 0px auto; 
+    }
+
+    .itcan-industries-container {
+        width: 90%;
+        margin: 40px auto 0px auto; 
+    }
 }

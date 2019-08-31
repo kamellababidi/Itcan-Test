@@ -41,13 +41,13 @@
 /* 500px */
 @media (max-width: 500px) {
     .client-container {
-        margin: 25px auto;
-        width: 148px;
-        height: 148px;
+        margin: 25px auto 0 auto;
+        width: 128px;
+        height: 128px;
     }
 
     .client-img {
-        width: 90px;
-        height: 35px;
+        width: 85px;
+        height: 30px;
     }
 }

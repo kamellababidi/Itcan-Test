@@ -44,6 +44,7 @@
 /* 500px */
 @media (max-width: 500px) {
     .footer-container {
+        margin-top: 100px;
         width: 100%;
         height: 290px;
     }

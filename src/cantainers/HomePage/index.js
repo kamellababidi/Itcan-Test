@@ -111,7 +111,75 @@ const HomePage = () => (
         </div>
       </section>
       {/* Our clients */}
-      <section>
+      {
+        window.innerWidth <= 500 ?
+        <section>
+        <SectionHeader
+            title='OUR CLIENTS'
+        />
+        <div className='itcan-clients-container-parent'>
+        <div className='itcan-clients-container'>
+          <Row>
+            <Col lg={true} md={true} sm xs = {6}>
+              <ClientContainer
+                img={require('../../public/boohoo.png')}
+              />
+            </Col>
+            <Col lg={true} md={true} sm xs = {6}>
+              <ClientContainer
+                img={require('../../public/oud.svg')}
+              />
+            </Col>
+            <Col lg={true} md={true} sm xs = {6}>
+              <ClientContainer
+                img={require('../../public/ghawali.png')}
+              />
+            </Col>
+            <Col lg={true} md={true} sm xs = {6}>
+              <ClientContainer
+                img={require('../../public/loccitane.png')}
+              />
+            </Col>
+          </Row>
+        </div>
+        <div className='itcan-clients-container'>
+          <Row>
+            <Col lg={true} md={true} sm xs = {6}>
+              <ClientContainer
+                img={require('../../public/matic.png')}
+              />
+            </Col>
+            <Col lg={true} md={true} sm xs = {6}>
+              <ClientContainer
+                img={require('../../public/mikyajy.png')}
+              />
+            </Col>
+            <Col lg={true} md={true} sm xs = {6}>
+              <ClientContainer
+                img={require('../../public/mumzworld.png')}
+              />
+            </Col>
+            <Col lg={true} md={true} sm xs = {6}>
+              <ClientContainer
+                img={require('../../public/nisnass.png')}
+              />
+            </Col>
+            <Col lg={true} md={true} sm xs = {6}>
+              <ClientContainer
+                img={require('../../public/ounass.svg')}
+              />
+            </Col>
+            <Col lg={true} md={true} sm xs = {6}>
+              <ClientContainer
+                img={require('../../public/tajawal.svg')}
+              />
+            </Col>
+          </Row>
+        </div>
+        </div>
+      </section>
+        :
+        <section>
         <SectionHeader
             title='OUR CLIENTS'
         />
@@ -176,6 +244,7 @@ const HomePage = () => (
         </div>
         </div>
       </section>
+      }
       {/* industries */}
       <section>
         <SectionHeader
