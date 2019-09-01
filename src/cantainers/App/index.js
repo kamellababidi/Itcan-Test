@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Button from 'react-bootstrap/Button';
 import { Helmet } from 'react-helmet';
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, HashRouter } from 'react-router-dom';
 import HomePage from '../HomePage/index';
 import Dashboard from '../Dashboard/index';
 import {Container} from 'react-bootstrap';
@@ -13,10 +13,15 @@ const App = () => (
             defaultTitle="Itcan Test"
         >
         </Helmet>
-        <Switch>
-            <Route exact path="/" component={HomePage} />
-            <Route exact path="/dashboard" component={Dashboard} />
-        </Switch>
+        <HashRouter>
+            <div>
+                <Route exact path="/" component={HomePage} />
+                <Route exact path="/dashboard" component={Dashboard} />
+            </div>
+        </HashRouter>
+        {/* <Switch>
+           
+        </Switch> */}
     </Container>
 );
 
